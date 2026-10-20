@@ -1,0 +1,44 @@
+body {background-color: blanchedalmond;
+font-family: monospace;
+margin: 70px;
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+h1 {
+    color: bisque ;
+}
+.kartu-profile{
+    background-color: rgb(175, 195, 231);
+    padding: 30px;
+    width: 400px;
+    border-radius: 10px 10px 10px 10px ;
+    box-shadow: 0 4px 15px rgba(1, 2, 3, 4);
+}
+.kartu-profile h1{
+    color: darkblue;
+    margin-bottom: 5px;
+}
+.kartu-profile p {
+    color: rgb(0, 2, 29);
+    font-size: 14px;
+}
+
+.btn-detail {
+    background-color: rgb(248, 186, 200);
+    color: aliceblue;
+    padding: 10px 20px ;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+.btn-detail:hover{
+    background-color: rgb(255, 151, 151);
+}
+
+#deskripsi{
+    color: crimson;
+}
